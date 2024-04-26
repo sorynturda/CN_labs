@@ -4,11 +4,11 @@ clear
 clc
 close all
 
-tipex='ex1';
+tipex='ex2';
 Nmax=1000;%numarul de iteratii maxim
 a=0;b=1.5;
 
-x0=0.75; % valorea de start
+x0=0.8; % valorea de start
 fa=f(a,tipex); fb=f(b,tipex);% se calculeaza valorile functiei in a si b
 count=1;% contor pt iteratii
 epsilon=10^(-10);% "pragul" pt conditia de stop

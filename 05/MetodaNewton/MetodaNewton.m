@@ -4,12 +4,12 @@ clear
 clc
 close all
 
-tipex='ex1';
+tipex='ex2';
 Nmax=1000;%numarul de iteratii maxim
 
 
 count=1;% contor pentru numarul de ecuatii
-x0=0.75; % punctul de pornire
+x0=0.8; % punctul de pornire
 epsilon=10^(-10); % valoarea pentru conditia de stop
 
 tic% masurarea timpului de executie
