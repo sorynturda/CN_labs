@@ -4,7 +4,7 @@ clear
 clc
 close all
 
-tipex='ex1';
+tipex='ex2';
 Nmax=1000;%numarul de iteratii maxim
 
 x1=0; x2=0.75; % valorile de start (spre deosebire de Newton sunt doua valori)

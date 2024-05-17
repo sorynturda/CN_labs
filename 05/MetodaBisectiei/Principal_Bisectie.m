@@ -8,7 +8,7 @@ close all
 epsilon=10^(-10); % pragul erorii
 it_max=100;%numarul maxim de iteratii admis
 
-tipex='ex2';% tipul exemplului
+tipex='ex1';% tipul exemplului
 [a,b,exact]=Date_pb(tipex);% returneaza datele problemei intervalul si solutia exacta (calculata cu fsolve din Matlab)
  
  x=a:0.01:b;
@@ -27,7 +27,7 @@ tipex='ex2';% tipul exemplului
 st=fb(a,tipex);
 dif=abs(b-a);
 k=0; %contor pentru numarul de iteratii
-fprintf('It. \t a \t\t\t\t (a+b)/2 \t\t b \t\t\t\t |b-a| \t\t\t Eroarea \n')
+fprintf('It. \t a \t\t (a+b)/2  \t b \t\t |b-a| \t\t\t Eroarea \n')
 while (dif>epsilon)&&(k<it_max)
     m=0.5*(a+b);
     vm=fb(m,tipex);
